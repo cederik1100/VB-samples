@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\csvalenteros\\source\\repos\\VB sample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF390D38-30A9-4275-8F6B-89E35FFA1AB2}|VB sample\\VB sample.vbproj|c:\\users\\csvalenteros\\source\\repos\\vb sample\\vb sample\\module1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{AF390D38-30A9-4275-8F6B-89E35FFA1AB2}|VB sample\\VB sample.vbproj|solutionrelative:vb sample\\module1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Module1.vb",
+              "DocumentMoniker": "C:\\Users\\csvalenteros\\source\\repos\\VB sample\\VB sample\\Module1.vb",
+              "RelativeDocumentMoniker": "VB sample\\Module1.vb",
+              "ToolTip": "C:\\Users\\csvalenteros\\source\\repos\\VB sample\\VB sample\\Module1.vb",
+              "RelativeToolTip": "VB sample\\Module1.vb",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAiwFUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-02-17T08:04:30.766Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

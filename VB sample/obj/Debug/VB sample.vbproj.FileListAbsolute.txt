@@ -1,0 +1,11 @@
+C:\Users\csvalenteros\source\repos\VB sample\VB sample\bin\Debug\VB sample.exe.config
+C:\Users\csvalenteros\source\repos\VB sample\VB sample\bin\Debug\VB sample.exe
+C:\Users\csvalenteros\source\repos\VB sample\VB sample\bin\Debug\VB sample.pdb
+C:\Users\csvalenteros\source\repos\VB sample\VB sample\bin\Debug\VB sample.xml
+C:\Users\csvalenteros\source\repos\VB sample\VB sample\obj\Debug\VB sample.vbproj.AssemblyReference.cache
+C:\Users\csvalenteros\source\repos\VB sample\VB sample\obj\Debug\VB_sample.Resources.resources
+C:\Users\csvalenteros\source\repos\VB sample\VB sample\obj\Debug\VB sample.vbproj.GenerateResource.cache
+C:\Users\csvalenteros\source\repos\VB sample\VB sample\obj\Debug\VB sample.vbproj.CoreCompileInputs.cache
+C:\Users\csvalenteros\source\repos\VB sample\VB sample\obj\Debug\VB sample.exe
+C:\Users\csvalenteros\source\repos\VB sample\VB sample\obj\Debug\VB sample.xml
+C:\Users\csvalenteros\source\repos\VB sample\VB sample\obj\Debug\VB sample.pdb
