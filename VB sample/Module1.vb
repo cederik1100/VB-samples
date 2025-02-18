@@ -2,15 +2,28 @@
 
 Module Module1
 
+    'VB.NET Consist of this parts
+    '* Namespace declaration - The namespace is a container for classes and other namespaces.
+    '* Class Or module - The class is a container for fields, methods, and properties. 
+    '* Procedures - The procedure is a block of code that performs a specific task.
+    '* Variables - The variable is a container for a value.
+    '* The Main procedure - The Main procedure is the entry point of the program.
+    '* Statements And Expressions - The statement is a unit of code that performs a specific task.
+    '* Comments - The comment is a unit of code that performs a specific task.
+
     ''SAMPLE PRINT
 
-    'Sub Main()
+    ' Sub Main()
     '    Console.WriteLine("sample")
     '    Console.ReadKey()
 
     'End Sub
 
 
+    'Objects - The object is a container for fields, methods, and properties.
+    'Classes - The class is a container for fields, methods, and properties.
+    'Methods - The method is a block of code that performs a specific task.
+    'Instance Variables - The instance variable is a container for a value.
 
     ''SAMPLE GETTING AREA OF RECTANGLE
 
@@ -91,51 +104,84 @@ Module Module1
     '    Console.ReadLine()
     'End Sub
 
-    Public Class Calculator
-        Private num1 As Double
-        Private num2 As Double
-        Private operation As String
+    ''SIMPLE CALCULATOR WITH USER INPUT AND CONDITIONAL STATEMENT
+    '    Public Class Calculator
+    '        Private num1 As Double
+    '        Private num2 As Double
+    '        Private operation As String
 
-        Public Sub GetValue()
-            Console.WriteLine("Enter Number: ")
-            num1 = Convert.ToDouble(Console.ReadLine())
+    '        Public Sub GetValue()
+    '            Console.Write("Enter Number: ")
+    '            num1 = Convert.ToDouble(Console.ReadLine())
 
-            Console.WriteLine("Enter Number: ")
-            num2 = Convert.ToDouble(Console.ReadLine())
+    '            Console.Write("Enter Number: ")
+    '            num2 = Convert.ToDouble(Console.ReadLine())
 
-            Console.WriteLine("Enter Operation: ")
-            operation = Convert.ToString(Console.ReadLine())
-        End Sub
+    '            Console.WriteLine(vbNewLine & "Input Operation: ")
+    '            Console.WriteLine("(+) Addition ")
+    '            Console.WriteLine("(-) Subtract ")
+    '            Console.WriteLine("(*) Multiply ")
+    '            Console.WriteLine("(/) Divide " & vbNewLine)
 
-        Public Function Add() As Double
-            Add = num1 + num2
-        End Function
+    '            Console.Write("Enter Operation: ")
+    '            operation = Convert.ToString(Console.ReadLine())
+    '        End Sub
 
-        Public Function Subtract() As Double
-            Subtract = num1 - num2
-        End Function
+    '        Public Function Add() As Double
+    '            Add = num1 + num2
+    '        End Function
 
-        Public Function Multiply() As Double
-            Multiply = num1 * num2
-        End Function
+    '        Public Function Subtract() As Double
+    '            Subtract = num1 - num2
+    '        End Function
 
-        Public Function Divide() As Double
-            Divide = num1 / num2
-        End Function
+    '        Public Function Multiply() As Double
+    '            Multiply = num1 * num2
+    '        End Function
 
-        Public Sub Display()
-            Console.WriteLine("Input Operation")
-            Console.WriteLine("(+) Addition ")
-            Console.WriteLine("(-) Subtract ")
-            Console.WriteLine("(*) Multiply ")
-            Console.WriteLine("(/) Divide ")
+    '        Public Function Divide() As Double
+    '            If num2 <> 0 Then
+    '                Divide = num1 / num2
+    '            Else
+    '                Console.WriteLine("Cannot divide by zero")
+    '            End If
+
+    '        End Function
+
+    '        Public Sub Display()
+
+    '            If (operation = "+") Then
+    '                Console.WriteLine("Result: {0}", Add())
+
+    '            ElseIf (operation = "-") Then
+    '                Console.WriteLine("Result: {0}", Subtract())
+
+    '            ElseIf (operation = "*") Then
+    '                Console.WriteLine("Result: {0}", Multiply())
+
+    '            ElseIf (operation = "/") Then
+    '                Console.WriteLine("Result: {0}", Divide())
+
+    '            Else
+    '                Console.WriteLine("Invalid Operation")
+    '            End If
 
 
 
 
 
-        End Sub
+    '        End Sub
 
-    End Class
+    '    End Class
+
+    '    Sub main()
+    '        Dim c As New Calculator()
+    '        c.GetValue()
+    '        c.Display()
+    '        Console.ReadLine()
+
+    '    End Sub
+
+
 
 End Module
